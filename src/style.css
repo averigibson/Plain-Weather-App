@@ -1,0 +1,35 @@
+body {
+    font-family: "Bitter", serif;
+}
+
+h1 {
+    font-weight: bolder;
+    color: #9fd3c7;
+}
+
+.container {
+    background: #385170;
+    color: #ffff;
+    width: 400px;
+    height: 400px;
+}
+
+.weather-app {
+    margin: 10px 20px;
+    padding-top: 10px;
+}
+
+.row {
+    margin: 20px;
+    font-size: 30px;
+}
+
+ul {
+    list-style: none;
+    text-align: right;
+    margin: 10px;
+}
+
+.col-6 {
+    margin: 20px;
+}
