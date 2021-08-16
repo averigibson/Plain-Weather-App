@@ -25,11 +25,11 @@
             <div class="weather-app">
                 <form id="search-form" class="mb-3">
                     <div class="row">
-                        <div class="input-group rounded">
-                            <input type="search" class="form-control rounded" placeholder="Type a city..." aria-label="Search" aria-describedby="search-addon" id="city-input" />
-                            <span class="input-group-text border-0" id="search-addon">
-                  <i class="fas fa-search"></i>
-                </span>
+                        <div class="col-9">
+                            <input type="search" placeholder="Type a city.." class="form-control" id="city-input" autocomplete="off" />
+                        </div>
+                        <div class="col-3">
+                            <input type="submit" value="Search" class="btn btn-primary w-100" />
                         </div>
                     </div>
                 </form>
@@ -46,7 +46,7 @@
                 <img src="" alt="Clear" id="icon" class="float-left" />
                 <strong id="temperature"></strong>
                 <span class="units">C|
-            <a href="# ">F</a>
+            <a href="#" class="f-link">F</a>
           </span>
             </div>
         </div>
