@@ -28,6 +28,15 @@ small {
     font-weight: bolder;
 }
 
+a {
+    color: white;
+}
+
+strong {
+    font-size: 35px;
+    margin: 10px;
+}
+
 .container {
     background: #385170;
     color: #ffff;
@@ -61,5 +70,16 @@ small {
 .units {
     position: relative;
     font-size: 16px;
-    top: -30px;
+    top: -15px;
+}
+
+.active {
+    color: white;
+    cursor: default;
+    text-decoration: none;
+}
+
+.active:hover {
+    text-decoration: none;
+    color: white;
 }
